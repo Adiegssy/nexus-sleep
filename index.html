@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Nexus Sleep | Future of Rest</title>
+    <meta charset="UTF-8">
+    <title>Nexus Sleep | Innovation at Rest</title>
     <style>
-        body { background: #000; color: #fff; font-family: sans-serif; text-align: center; padding-top: 50px; }
-        h1 { font-size: 3em; letter-spacing: 5px; }
-        .video-container { width: 80%; margin: 40px auto; border: 1px solid #333; }
-        p { color: #aaa; max-width: 600px; margin: 20px auto; }
+        :root { --bg: #000; --accent: #0071e3; --text: #f5f5f7; --subtext: #86868b; }
+        body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif; margin: 0; padding: 0; }
+        
+        .hero { padding: 80px 20px; text-align: center; }
+        h1 { font-size: 72px; font-weight: 600; letter-spacing: -2px; }
+        
+        /* Contenitore Video */
+        .video-hero { max-width: 1000px; margin: 0 auto 60px; padding: 0 20px; }
+        video { width: 100%; border-radius: 24px; box-shadow: 0 20px 60px rgba(0,0,0,0.8); }
+        
+        .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto 60px; padding: 0 20px; }
+        .card { background: #161617; border-radius: 24px; padding: 40px; border: 1px solid #333; }
+        .card h3 { font-size: 28px; margin-bottom: 15px; }
+        .card p { color: var(--subtext); font-size: 17px; line-height: 1.6; }
+        
+        img { width: 100%; border-radius: 16px; margin-top: 25px; border: 1px solid #222; }
+        
+        .cta { text-align: center; padding-bottom: 100px; }
+        .button { background: var(--accent); color: white; padding: 16px 40px; border-radius: 30px; text-decoration: none; font-weight: 600; display: inline-block; }
     </style>
 </head>
 <body>
-    <h1>NEXUS SLEEP</h1>
-    <p>Adaptive comfort, intelligent support. The future of sleep technology.</p>
-    
-    <div class="video-container">
-        <video width="100%" controls>
-            <source src="nexus_video.mp4" type="video/mp4">
-        </video>
+
+<div class="hero">
+    <h1>Nexus Sleep</h1>
+    <p>The Future of Bio-Intelligent Rest.</p>
+</div>
+
+<div class="video-hero">
+    <video autoplay loop muted playsinline>
+        <source src="nexus_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h3>Advanced Cardiac Monitoring</h3>
+        <p>Real-time analysis of heart rate (BPM) and respiratory frequency. High-sensitivity sensors map sleep architecture with clinical precision.</p>
+        <img src="sistema_biometrico.png" alt="Cardiac Monitoring">
     </div>
+    
+    <div class="card">
+        <h3>Guardian Protocol</h3>
+        <p>Autonomous safety system. Detects suffocation or respiratory arrest, triggering immediate elevation maneuvers and emergency alerts.</p>
+        <img src="sezione_termica.png" alt="Guardian Protocol">
+    </div>
+
+    <div class="card">
+        <h3>AI-Driven Contouring</h3>
+        <p>Over 2,000 pneumatic spheres adjust in milliseconds based on your posture, ensuring optimal spinal alignment and weight distribution.</p>
+        <img src="sezione_laterale.png" alt="AI Movement">
+    </div>
+
+    <div class="card">
+        <h3>Therapeutic Recovery</h3>
+        <p>Pulsed pressure therapy emulates professional deep-tissue massage to accelerate metabolic recovery and lymphatic drainage during cycles.</p>
+        <img src="prodotto_finale.png" alt="Therapy">
+    </div>
+</div>
+
+<div class="cta">
+    <a href="mailto:investors@nexussleep.com" class="button">Request Investor Brief</a>
+</div>
+
 </body>
 </html>
