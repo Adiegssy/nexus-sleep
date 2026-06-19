@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Sleep | Sovereign Recovery Architecture</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        appleDark: '#000000',
+                        appleGray: '#0a0a0a',
+                        appleBorder: '#1f1f1f',
+                        nexusBlue: '#0071e3',
+                        nexusRed: '#ff3b30',
+                    },
+                    fontFamily: {
+                        sans: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-appleDark text-white font-sans antialiased selection:bg-nexusBlue selection:text-white">
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-0 w-full z-50 bg-appleDark/80 backdrop-blur-md border-b border-appleBorder px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="text-lg font-bold tracking-tight uppercase">Nexus Sleep</span>
+            <div class="hidden lg:flex space-x-6 text-[10px] text-neutral-400 font-medium uppercase tracking-widest">
+                <a href="#vision" class="hover:text-white transition">Vision</a>
+                <a href="#problem" class="hover:text-white transition">Problem</a>
+                <a href="#ai-core" class="hover:text-white transition">NexCore™</a>
+                <a href="#hardware" class="hover:text-white transition">Hardware Interface</a>
+                <a href="#emergency" class="hover:text-white transition">Medical Failsafe</a>
+                <a href="#privacy" class="hover:text-white transition">Privacy</a>
+                <a href="#investors" class="hover:text-white transition">Investors</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECTION 01: HERO / VISION -->
+    <section id="vision" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop" alt="Abstract Tech" class="absolute inset-0 w-full h-full object-cover opacity-20">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-appleDark"></div>
+        <div class="relative z-10 text-center max-w-4xl px-6 space-y-8 mt-12">
+            <h1 class="text-6xl md:text-8xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-neutral-500">
+                Sovereign Recovery.
+            </h1>
+            <p class="text-xl md:text-2xl text-neutral-400 font-light leading-relaxed max-w-3xl mx-auto">
+                Engineering the ultimate intersection of Edge-AI and physiological hardware. We are rewriting the architecture of human sleep.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 02: THE CORE PROBLEM -->
+    <section id="problem" class="py-24 px-6 border-t border-appleBorder bg-appleGray">
+        <div class="max-w-6xl mx-auto">
+            <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">01 / The Market Failure</span>
+            <h2 class="text-4xl md:text-5xl font-bold tracking-tight mt-4 mb-16">Observation is Obsolete.</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 border border-appleBorder rounded-2xl bg-black hover:border-nexusBlue transition duration-500">
+                    <h3 class="text-xl font-semibold mb-4 text-white">The Latency Trap</h3>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Current wearables rely on cloud computing. By the time biometric data is processed remotely, the crucial sleep phase has already shifted. True physiological intervention requires zero latency.</p>
+                </div>
+                <div class="p-8 border border-appleBorder rounded-2xl bg-black hover:border-nexusBlue transition duration-500">
+                    <h3 class="text-xl font-semibold mb-4 text-white">Data Exploitation</h3>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Your most intimate physiological data is mined, aggregated, and sold. The standard model treats the user as a product. We treat the user as a sovereign entity.</p>
+                </div>
+                <div class="p-8 border border-appleBorder rounded-2xl bg-black hover:border-nexusBlue transition duration-500">
+                    <h3 class="text-xl font-semibold mb-4 text-white">The Action Gap</h3>
+                    <p class="text-neutral-400 text-sm leading-relaxed">Telling a user they slept poorly does not fix the problem. Passive analytics create anxiety, not results. The high-performance market demands active, mechanical intervention.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 03: THE NEXUS PARADIGM -->
+    <section class="py-24 px-6 border-t border-appleBorder bg-black relative">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">02 / The Solution</span>
+            <h2 class="text-4xl md:text-5xl font-bold tracking-tight">Active Bio-Manipulation.</h2>
+            <p class="text-lg text-neutral-400 leading-relaxed font-light">
+                Nexus Sleep replaces the passive dashboard with an active, cyber-physical control system. We do not just read the data; our hardware physically interacts with the human body in real-time to alter sleep architecture. This is the paradigm shift from reading to writing physiological states.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 04: NEXCORE AI ARCHITECTURE -->
+    <section id="ai-core" class="py-24 px-6 border-t border-appleBorder bg-appleGray">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="flex-1 space-y-6">
+                <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">03 / The AI Brain</span>
+                <h2 class="text-4xl md:text-5xl font-bold tracking-tight">NexCore™ Edge-AI.</h2>
+                <p class="text-neutral-400 text-base leading-relaxed">
+                    The intelligence driving the physical hardware. NexCore™ is a proprietary neural engine designed to run 100% locally. It continuously ingests thousands of biometric data points per second—Heart Rate Variability, respiratory rate, and micro-movements—processing them locally with zero cloud dependency.
+                </p>
+                <div class="bg-black p-6 border border-appleBorder rounded-xl mt-6">
+                    <div class="font-mono text-nexusBlue text-sm">
+                        > INGESTING RAW TELEMETRY...<br>
+                        > PROCESSING ON LOCAL NEURAL NET...<br>
+                        > LATENCY: 0.02ms
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 w-full h-80 rounded-2xl overflow-hidden border border-appleBorder">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover opacity-60" alt="Edge AI Processing">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 05: HARDWARE INTRODUCTION -->
+    <section id="hardware" class="py-32 px-6 border-t border-appleBorder bg-black">
+        <div class="max-w-5xl mx-auto text-center space-y-8">
+            <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">04 / The Physical Interface</span>
+            <h2 class="text-5xl md:text-6xl font-bold tracking-tight">The Sovereign Mattress.</h2>
+            <p class="text-xl text-neutral-400 leading-relaxed font-light">
+                Intelligence is useless without execution. NexCore™ commands a highly advanced, cybernetic sleep surface. This is not a static bed; it is an active, robotic exoskeleton for recovery.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 06: DYNAMIC ERGONOMIC TOPOGRAPHY -->
+    <section class="py-24 px-6 border-t border-appleBorder bg-appleGray">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-16">
+            <div class="flex-1 space-y-6">
+                <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">05 / Musculoskeletal Alignment</span>
+                <h2 class="text-4xl font-bold tracking-tight">Pneumatic Micro-Cellular Matrix.</h2>
+                <p class="text-neutral-400 text-sm leading-relaxed">
+                    The surface consists of thousands of independent, AI-driven pneumatic spheres. Using advanced load-sensing algorithms, NexCore™ maps the user's skeletal topography in real-time.
+                </p>
+                <ul class="space-y-4 text-sm text-neutral-300">
+                    <li class="flex items-start gap-3">
+                        <span class="text-nexusBlue">✔</span> <span><strong>Adaptive Pressure Redistribution:</strong> The spheres inflate and deflate dynamically as you move, ensuring perfect spinal alignment and zero pressure points.</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1 w-full h-80 rounded-2xl overflow-hidden border border-appleBorder bg-black flex justify-center items-center">
+                <img src="https://images.unsplash.com/photo-1618220179428-22790b46a0eb?q=80&w=2070&auto=format&fit=crop" class="w-full h-full object-cover opacity-50 mix-blend-luminosity" alt="Matrix">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 07: MYOFASCIAL RELEASE -->
+    <section class="py-24 px-6 border-t border-appleBorder bg-black">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="flex-1 space-y-6">
+                <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">06 / Muscular Recovery</span>
+                <h2 class="text-4xl font-bold tracking-tight">Autonomous Myofascial Actuation.</h2>
+                <p class="text-neutral-400 text-sm leading-relaxed">
+                    Beyond static support, the pneumatic air-spheres generate synchronized kinetic waves. Upon detecting high muscular tension or lactic acid build-up from daily exertion, the mattress initiates a localized, deep-tissue myofascial massage, accelerating cellular repair before entering REM sleep.
+                </p>
+            </div>
+            <div class="flex-1 w-full h-64 rounded-2xl overflow-hidden border border-appleBorder bg-appleGray">
+                 <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2020&auto=format&fit=crop" class="w-full h-full object-cover opacity-40" alt="Muscles">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 08: THERMAL HOMEOSTASIS -->
+    <section class="py-24 px-6 border-t border-appleBorder bg-appleGray">
+        <div class="max-w-6xl mx-auto text-center space-y-12">
+            <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">07 / Temperature Control</span>
+            <h2 class="text-4xl font-bold tracking-tight">Zonal Thermoregulation.</h2>
+            <p class="text-neutral-400 max-w-3xl mx-auto text-sm leading-relaxed">
+                Sleep architecture is deeply tied to core body temperature. The Nexus mattress integrates a micro-fluidic thermal network beneath the surface layer. 
+                It actively extracts body heat to induce rapid Deep Sleep (Slow-Wave Sleep), and gently introduces warmth during the early morning hours to stimulate cortisol production for a natural awakening.
+            </p>
+            <div class="flex justify-center gap-8 mt-8">
+                <div class="px-6 py-3 border border-blue-500/30 bg-blue-900/20 text-blue-400 rounded-full text-xs font-mono">COOLING: Deep Sleep Induction</div>
+                <div class="px-6 py-3 border border-orange-500/30 bg-orange-900/20 text-orange-400 rounded-full text-xs font-mono">WARMING: Circadian Waking</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 09: CIRCADIAN AWAKENING (SMART ALARM) -->
+    <section class="py-24 px-6 border-t border-appleBorder bg-black">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-16">
+            <div class="flex-1 space-y-6">
+                <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">08 / The Smart Alarm</span>
+                <h2 class="text-4xl font-bold tracking-tight">Phase-Aligned Awakening.</h2>
+                <p class="text-neutral-400 text-sm leading-relaxed">
+                    Acoustic alarms shatter the nervous system, causing sleep inertia. Nexus eliminates the standard alarm clock. 
+                </p>
+                <p class="text-neutral-400 text-sm leading-relaxed">
+                    By tracking your brainwave states, NexCore™ identifies the precise moment of lightest sleep within your desired wake-up window. It then orchestrates a progressive awakening using subtle temperature increases, gentle kinetic waves from the pneumatic matrix, and ambient photon modulation.
+                </p>
+            </div>
+            <div class="flex-1 w-full h-80 rounded-2xl overflow-hidden border border-appleBorder bg-appleGray">
+                 <img src="https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=2069&auto=format&fit=crop" class="w-full h-full object-cover opacity-50" alt="Alarm">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 10: MEDICAL FAILSAFE (EMERGENCY PROTOCOL) -->
+    <section id="emergency" class="py-32 px-6 border-t border-nexusRed/30 bg-[#110000]">
+        <div class="max-w-6xl mx-auto text-center space-y-8">
+            <span class="text-xs font-bold tracking-widest text-nexusRed uppercase">09 / Autonomous Critical Care</span>
+            <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-white">The Biometric Failsafe.</h2>
+            <p class="text-neutral-300 max-w-3xl mx-auto text-lg leading-relaxed font-light">
+                For those sleeping alone, a nocturnal cardiac event can be fatal. Nexus operates as a continuous, clinical-grade telemetry monitor.
+            </p>
+            
+            <div class="grid md:grid-cols-2 gap-8 mt-12 text-left">
+                <div class="p-8 bg-black/60 border border-nexusRed/50 rounded-2xl backdrop-blur-md">
+                    <h3 class="text-xl font-semibold mb-3 text-white">Bradycardia & Cardiac Arrest Detection</h3>
+                    <p class="text-neutral-400 text-xs leading-relaxed">
+                        The mattress continuously monitors the macroscopic and microscopic cardiac output. If the Edge-AI detects life-threatening drops in heart rate (severe bradycardia) or cessation of vital signs, the failsafe protocol is instantly triggered.
+                    </p>
+                </div>
+                <div class="p-8 bg-black/60 border border-nexusRed/50 rounded-2xl backdrop-blur-md">
+                    <h3 class="text-xl font-semibold mb-3 text-white">Automated Emergency Dispatch</h3>
+                    <p class="text-neutral-400 text-xs leading-relaxed">
+                        Upon critical threshold breach, NexCore™ bypasses the need for human interaction. It autonomously transmits an encrypted SOS to the nearest hospital dispatch center with precise GPS coordinates, whilst simultaneously alerting designated Next-of-Kin contacts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 11: PRIVACY MANIFESTO -->
+    <section id="privacy" class="py-24 px-6 border-t border-appleBorder bg-black">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">10 / Security Architecture</span>
+            <h2 class="text-4xl font-bold tracking-tight">True Privacy is Hardwired.</h2>
+            <p class="text-neutral-400 text-lg leading-relaxed">
+                In an era where tech companies monetize your biology, Nexus stands as an impenetrable sovereign vault. Because NexCore™ processes every single biometric metric—including emergency telemetry—entirely on the edge, your physiological data never leaves your room without explicit consent. 
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 12: APP ECOSYSTEM -->
+    <section class="py-24 px-6 border-t border-appleBorder bg-appleGray">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="flex-1 w-full max-w-sm mx-auto h-[600px] border-[8px] border-black rounded-[3rem] overflow-hidden bg-black relative shadow-2xl">
+                <!-- Fake App UI -->
+                <div class="absolute inset-0 bg-[#0a0a0a] p-6 text-white flex flex-col">
+                    <div class="flex justify-between items-center mb-8">
+                        <span class="text-xs font-mono text-neutral-500">NEXUS OS</span>
+                        <span class="text-xs font-mono text-nexusBlue">SYNCED</span>
+                    </div>
+                    <div class="text-4xl font-light mb-1">98%</div>
+                    <div class="text-[10px] text-neutral-500 mb-8 uppercase tracking-widest">Sovereign Recovery Score</div>
+                    
+                    <div class="space-y-4">
+                        <div class="bg-[#111] p-4 rounded-xl border border-appleBorder flex justify-between">
+                            <span class="text-sm">Deep Sleep</span>
+                            <span class="text-sm text-nexusBlue">2h 14m</span>
+                        </div>
+                        <div class="bg-[#111] p-4 rounded-xl border border-appleBorder flex justify-between">
+                            <span class="text-sm">Thermal Interventions</span>
+                            <span class="text-sm text-nexusBlue">8 Adjustments</span>
+                        </div>
+                        <div class="bg-[#111] p-4 rounded-xl border border-appleBorder flex justify-between">
+                            <span class="text-sm">Kinetic Massages</span>
+                            <span class="text-sm text-nexusBlue">Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1 space-y-6">
+                <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">11 / The Interface</span>
+                <h2 class="text-4xl font-bold tracking-tight">Your Local Command Center.</h2>
+                <p class="text-neutral-400 text-sm leading-relaxed">
+                    The Nexus App acts exclusively as a local viewer, not a cloud portal. It connects directly to your NexCore™ unit via encrypted local networks to display your recovery metrics and configure your matrix topography, thermal preferences, and emergency protocols.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 13: INVESTOR INTELLIGENCE -->
+    <section id="investors" class="py-24 px-6 border-t border-appleBorder bg-black">
+        <div class="max-w-6xl mx-auto space-y-16">
+            <div class="text-center space-y-4">
+                <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">12 / Financial Strategy</span>
+                <h2 class="text-4xl font-bold tracking-tight">Market Dominance.</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="p-6 border border-appleBorder rounded-xl bg-appleGray">
+                    <div class="text-3xl font-bold text-white mb-1">$115B</div>
+                    <div class="text-[10px] text-neutral-500 uppercase tracking-widest">TAM by 2028</div>
+                </div>
+                <div class="p-6 border border-appleBorder rounded-xl bg-appleGray">
+                    <div class="text-3xl font-bold text-white mb-1">$22B</div>
+                    <div class="text-[10px] text-neutral-500 uppercase tracking-widest">Sleep Tech Market</div>
+                </div>
+                <div class="p-6 border border-appleBorder rounded-xl bg-appleGray">
+                    <div class="text-3xl font-bold text-white mb-1">40%</div>
+                    <div class="text-[10px] text-neutral-500 uppercase tracking-widest">Edge-AI CAGR</div>
+                </div>
+                <div class="p-6 border border-appleBorder rounded-xl bg-appleGray">
+                    <div class="text-3xl font-bold text-nexusBlue mb-1">D2C</div>
+                    <div class="text-[10px] text-neutral-500 uppercase tracking-widest">Hardware Revenue Model</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 14: THE ROADMAP -->
+    <section class="py-24 px-6 border-t border-appleBorder bg-appleGray text-center">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">13 / Execution</span>
+            <h2 class="text-4xl font-bold tracking-tight">Capital Deployment.</h2>
+            <p class="text-neutral-400 text-sm leading-relaxed max-w-2xl mx-auto">
+                We are currently raising our pre-seed round to finalize the prototyping of the Pneumatic Micro-Cellular Matrix, refine the NexCore™ Edge-AI models, and execute FDA/CE medical clearance for the Autonomous Critical Care protocol.
+            </p>
+        </div>
+    </section>
+
+    <!-- SECTION 15: FOUNDER & FOOTER -->
+    <section class="py-32 px-6 border-t border-appleBorder bg-black relative">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <span class="text-xs font-bold tracking-widest text-nexusBlue uppercase">14 / Leadership</span>
+            <h2 class="text-4xl font-bold tracking-tight">Architected by Emon.</h2>
+            <p class="text-neutral-400 max-w-2xl mx-auto text-sm leading-relaxed">
+                Founder & Lead Architect. Based in London, United Kingdom. Building the definitive solution for elite performers, longevity enthusiasts, and individuals who demand absolute sovereignty over their physiology.
+            </p>
+            
+            <div class="pt-12">
+                <a href="mailto:nexus.sleep@zohomail.eu" class="inline-block border border-nexusBlue bg-nexusBlue/10 hover:bg-nexusBlue text-white text-sm px-8 py-4 rounded-full transition duration-300 tracking-wide font-bold shadow-[0_0_20px_rgba(0,113,227,0.3)]">
+                    Contact: nexus.sleep@zohomail.eu
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (SECTION 15 CONTINUED) -->
+    <footer class="py-12 px-6 bg-appleGray border-t border-appleBorder">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-xs text-neutral-600 gap-4">
+            <div>&copy; 2026 Nexus Sleep. All rights reserved. Proprietary and confidential information.</div>
+            <div class="space-x-6">
+                <a href="mailto:nexus.sleep@zohomail.eu" class="hover:text-neutral-300 transition">Institutional Inquiries</a>
+                <span class="hover:text-neutral-300 cursor-pointer transition">Investor Deck (Protected)</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
